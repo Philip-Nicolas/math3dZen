@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "math3dZen",
+  "version": "0.0.1",
+  "author": "phil-nic",
+  "description": "Disable right-click menu when panning canvas on math3d.org.",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.math3d.org/*"
+      ],
+      "js": [
+        "index.js"
+      ]
+    }
+  ],
+  "icons": {
+    "48": "icons/48.png",
+    "96": "icons/96.png"
+  }
+}
