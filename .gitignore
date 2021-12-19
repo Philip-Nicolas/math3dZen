@@ -1,0 +1,21 @@
+### Project Specific ###
+
+# build directory
+web-ext-artifacts
+
+# extension id file
+.web-extension-id
+
+
+### Generic ###
+
+# IDE configs
+.idea
+.code-workspace
+
+# misc. files
+*.swp
+*.log
+
+# macOS system files
+.DS_Store
